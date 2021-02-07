@@ -520,3 +520,102 @@ h3{
     line-height: 21px;
   }
 }
+
+
+/* about library*/
+
+.content-about-library{
+  position: relative;
+  display:grid;
+  grid-template-columns: repeat(auto-fit ,minmax(280px,1fr));  /* should learn this function */
+
+}
+.content-text-about{
+  border: 1px solid black;
+  background-color: white;
+  padding: 12% 5% 12% 7%;
+  position: relative;
+  right: 242px;
+  top: 70px;
+  width: 600px;
+}
+.right-img-about{
+  text-align: center;
+  padding-top: 60px;
+}
+.right-img-about img{
+  max-width: 60%;
+}
+.centred-img-about{
+  text-align: center;
+  max-width: 80%;
+}
+.text-about-library p{
+  font-size: 20px;
+  line-height: 35px;
+  padding-top:20px;
+}
+.text-about-library h3{
+  font-size: 35px;
+  font-family: "poping_meduim";
+  border-bottom:2px solid var(--red);
+  padding-bottom :5px;
+  max-width:240px;
+}
+
+/* abou library media */
+
+@media only screen and (max-width: 1280px) {
+  .content-text-about{
+    top: 30px;
+  }
+  .right-img-about{
+    padding-top: 55px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .content-text-about{
+      width:460px;
+      padding: 5% 5% 5% 7%;
+  }
+  .right-img-about{
+    padding-top: 45px;
+  }
+  .text-about-library p {
+    font-size: 16px;
+    line-height: 32px;
+    padding-top: 15px;
+}
+}
+@media only screen and (max-width: 768px) {
+  .content-text-about {
+    right: 0px !important;
+    top: 20px;
+    width: 680px;
+    text-align: -webkit-center;
+}
+  .right-img-about{
+    padding-top: 0px;
+  }
+  .right-img-about img{
+    max-width: 70%;;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .content-text-about {
+    position: initial;
+    top: 20px;
+    width: auto !important;
+    margin-top: 10px;
+}
+  .text-about-library p {
+    font-size: 13px;
+    line-height: 24px;
+  }
+  .centred-img-about {
+    display: none;
+}
+  .right-img-about img{
+    max-width: 100%;;
+  }
+}
