@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "poping_light";
+    src: url(../fonts/poping/Poppins-Light.ttf);
+  }
+  @font-face {
+    font-family: "poping_Bold";
+    src: url(../fonts/poping/Poppins-Bold.ttf);
+  }
+  @font-face {
+    font-family: "poping_semibold";
+    src: url(../fonts/poping/Poppins-SemiBold.ttf);
+  }
+  @font-face {
+    font-family: "poping_regular";
+    src: url(../fonts/poping/Poppins-Regular.ttf);
+  }
+  @font-face {
+    font-family: "poping_meduim";
+    src: url(../fonts/poping/Poppins-Medium.ttf);
+  }
+  @font-face {
+    font-family: "poping_semibolditalic";
+    src: url(../fonts/poping/Poppins-SemiBoldItalic.ttf);
+  }
+
+/* variabls colors */
+:root {
+  --red: #B32137;
+  --black: #141012;
+}
+
+*{
+    padding: 0;
+    margin: 0;   
+}
+
+/* compenent */
+
+p{
+  font-family: "poping_regular";
+}
+.button{
+  border: none;
+  font-family: "poping_regular";
+  font-size: 20px;
+  padding: 7px 27px;
+  border-radius: 50px;
+}
+h2{
+  font-size:50px;
+  color: var(--black);
+  font-family: "poping_Bold";
+  font-weight: bolder;
+  font-style: normal;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom:30px;
+}
+span{
+  color: var(--red);
+}
+@media only screen and (max-width: 560px) {
+  h2{
+    font-size:30px;
+    padding-top: 20px;
+    padding-bottom:20px;
+  }
+}
+.pl-pr{
+  padding: 3% 5% 2% 5%;
+  /*  margin: 30px 0px 30px 0px; */
+}
+.titre-para{
+  font-family: "poping_meduim";
+  font-size: 25px;
+  color: var(--black);
+  font-weight: 900;
+  font-style: normal;
+}
+h3{
+  font-size:20px;
+  font-family: "poping_Bold";
+  font-style: normal;
+}
+.saying{
+  font-family: "poping_semibolditalic";
+  font-size: 35px;
+  line-height: 50px;
+}
+.light-name{
+  font-family: "poping_light";
+  font-size:24px;
+  padding-top: 15px;
+}
+.red-button{
+  background-color :var(--red);
+  color: white;
+}
+.red-button:hover{
+  background-color :rgba(199, 55, 55, 0);
+  border: 2px solid white;
+}
+/* hero */
