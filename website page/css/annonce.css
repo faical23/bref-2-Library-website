@@ -110,12 +110,16 @@
 .service-offers .black-button:hover{
   background-color :var(--red);
 }
-.second_offers{
-  margin-top: 30px;
-  position: absolute;
-  visibility: hidden;
-}
   
+#second_offers_on{
+  margin-top: 30px;
+  display: none;
+
+}
+#second_offers_off{
+  margin-top: 30px;
+  display: flex;
+}
 
 /* media query service offers */
 @media only screen and (max-width: 1024px) {
