@@ -293,6 +293,9 @@ padding-bottom: 15px;
     border-top-left-radius: 30px ;
     border-bottom-left-radius: 30px ;
 }
+.next_event .titre_card {
+    border-left: 10px solid white;
+}
 .next_event .centonu-event{
     border-top-right-radius: 30px ;
     border-bottom-right-radius: 30px ;
