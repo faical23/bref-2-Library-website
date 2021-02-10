@@ -78,7 +78,7 @@ span{
   /*  margin: 30px 0px 30px 0px; */
 }
 .titre-para{
-  font-family: "poping_meduim";
+    font-family: "poping_semibolditalic";
   font-size: 25px;
   color: var(--black);
   font-weight: 900;
@@ -90,10 +90,9 @@ h3{
   font-style: normal;
 }
 .saying {
-  font-family: "poping_semibold";
+  font-family: "poping_semibolditalic";
   font-size: 35px;
   line-height: 50px;
-  font-weight: 900;
 }
 .light-name{
   font-family: "poping_light";
