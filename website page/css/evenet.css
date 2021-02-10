@@ -235,6 +235,7 @@ padding-bottom: 15px;
     width:130px;
     height:130px;
     border-radius:100%;
+    object-fit: cover;
 }
 .card_start{
     background-color:#383737;
