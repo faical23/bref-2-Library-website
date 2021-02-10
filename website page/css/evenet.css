@@ -334,3 +334,61 @@ padding-bottom: 15px;
         max-width: 100%;
     }
 }
+
+/* top books */
+
+.no-js .owl-carousel, .owl-carousel.owl-loaded {
+    display: contents; /* destroy the card*/
+    justify-content:space-around; /* make space betwen card */
+}
+.top-books{
+    text-align: center;
+    padding: 40px 0px;
+    font-family: "poping_regular";
+}
+  .slider{
+      margin-top: 50px;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .slider .card{
+    margin: 0 15%; /* margin betwen card */
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 220px;
+    height:420px;
+  }
+  .slider .card .img{
+    width: 100%;
+  }
+  .slider .card .img img{
+    border-radius: 20px;
+    width: 100%;
+  }
+  .slider .card .content{
+    text-align: center;
+    padding: 10px 20px;
+  }
+  .card .content .title{
+    font-size:  13px;
+    font-weight: 600;
+    color: var(--red);
+  }
+  .card .content .sub-title{
+    color: var(--black);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    padding-top: 5px;
+  }
+  .stars_books{
+      display: flex;
+      justify-content: center;
+      padding-top: 5px;
+  }
+  .stars_books img{
+    max-width: 10%;
+    margin: 1px;
+}
+  
